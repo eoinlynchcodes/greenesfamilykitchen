@@ -170,19 +170,35 @@ nav {
 }
 
 .details {
-  height: 100vh;
+  height: auto;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .center-text{
     display: flex;
     justify-content: center;
     padding: 4rem;
+    background-color: black;
+    color: white;
 }
 
 img {
     display: flex;
     justify-self: center;
     align-self: center;
-  }
+}
+
+.images{
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.product-heading{
+  background-color: green;
+  color: white;
+  padding: 1rem 1rem;
+  width: 80%;
+  margin: 0 auto;
+}
