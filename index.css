@@ -204,6 +204,12 @@ img {
 }
 
 
+form{
+  display: flex;
+  flex-direction: column;
+  
+}
+
 footer{
   background-color: black;
   color: white;
