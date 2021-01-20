@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "greenesfamilykitchen.ie",
+  "Id": "d85a644f-bf2d-42f7-aca3-ecf9c93b5dee"
+}
