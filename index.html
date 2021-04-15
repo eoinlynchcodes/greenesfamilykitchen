@@ -3,63 +3,186 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Greene's Family Kitchen product range will be available in stores in Ireland soon.">
+    <meta name="description"
+        content="Greene's Family Kitchen product range will be available in stores in Ireland soon.">
     <title>Greene's Family Kitchen</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="/images/pixlr-bg-result.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/pixlr-bg-result.svg">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="nav.css">
 </head>
 
 
 <body>
     <nav>
-        <h1>Greene's Family Kitchen</h1>
-
+        <div class="navDiv">
+            <img class="logo" src="/images/pixlr-bg-result.png" alt="Greene's Family Kitchen Logo"></img>
+            <div class="navSection">
+                <a href="#story">
+                    <h5>Our Story</h5>
+                </a>
+                <a href="#products">
+                    <h5>Products</h5>
+                </a>
+                <a href="#contact">
+                    <h5>Contact</h5>
+                </a>
+            </div>
+        </div>
     </nav>
 
-    <div class="details">
+    <section class="sectionOne">
+        <img src="images/homeimage.jpg" alt="Pancakes made with natural ingredients." />
+    </section>
 
-        <img src="/images/greenesfamilykitchenlogo.jpg" alt="Greene's Family Kitchen Logo" float="center">
-    
-        <h3 class="center-text">This website is currently under construction.</h3>
-    
+    <section class="intro-text-section">
+        <div>
+            <div class="text-inside-story">
+                <h1 class="heading">Our Story</h1>
+                <br />
+                <p class="text-layout">
+                    Greenes family Kitchen located at our family farm in Rockfield , Rathaspick, Rathowen, Co. Wesmeath.
+                    Our
+                    family have been involved in faming and caring for the land for Generations.. We are passionate
+                    about
+                    sustainability, and pride ourselves in producing the finest quality foods.<br /><br />
+                    We are consumer focused
+                    developing innovative foods from award winning free range eggs from our own farm, we have also
+                    linked up
+                    with other Irish producers while using their ingredients in our products.
+                    We place quality and taste at the core of what we do.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products-section">
+        <br />
+        <section class="pancakes">
+
+            <div class="pancake-card pancake-background">
+                <img class="" src="/images/pancakeOne.png" alt="Pancakes" />
+                <hr />
+                <h4 class="product-name">Deliciously Fluffy Pancakes</h4>
+            </div>
+
+            <div class="pancake-card">
+                <img class="" src="/images/pancakeTwo.png" alt="Zesty Lemon Pancakes" />
+                <hr />
+                <h4 class="product-name">Deliciously Zesty Lemon Pancakes</h4>
+            </div>
+
+            <div class="pancake-card">
+                <img class="" src="/images/pancakeThree.png" alt="Crepe" />
+                <hr />
+                <h4 class="product-name">Traditional Crepes</h4>
+            </div>
+        </section>
+
+        <div class="pancakes-text">
+            <h1 class="heading text-layout">Pancakes</h1>
+            <br />
+            <div>
+                <p class="text-layout">We combine fresh Irish sources ingredients with a strong emphasis on welfare and
+                    sustainability.
+                    <br />
+                    The flour is native Irish and comes from Kilkenny and the eggs come from our own farm in Westmeath.
+                    <br />
+                    Our hens are free range and give us award-winning quality eggs. So, from our kitchen to yours,
+                    enjoy!
+                </p>
+                <div class="center-child">
+                    <ul>
+                        <li>Suitable for Vegetarians</li>
+                        <li>Made with flour from Kilkenny, Ireland.</li>
+                        <li>Made with eggs from our own farm in Westmeath - <a
+                                href="https://greenesfreerangeeggs.ie/">greenesfreerangeeggs.ie</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <div class="our-values">
+        <h4 class="value-items">Lovingly hand-prepared, fresh Pancakes.</h4>
+        <h4 class="value-items">Made with natural ingredients from Irish farms.</h4>
+        <h4 class="value-items">Welfare and sustainability is at the heart of what we do.</h4>
     </div>
 
-    <div>
-        <h1 class="product-heading">Products soon to be available:</h1>
-            <img class="images" src="/images/pancake.jpg" alt="An image of Greene's Family Kitchen's pancake product" />
-        <div>
-            <img class="images" src="/images/zesty lemon pancake.jpg"
-                alt="An image of Greene's Family Kitchen's pancake product" />
-        </div>
-        <div>
-            <img class="images" src="/images/crepe.jpg" alt="An image of Greene's Family Kitchen's pancake product" />
-        </div>
+    <section>
+        <ul>
+            <!-- Midlands
+            Buckleys Supervalu Mullingar
+            Hughes Eurospar Mullingar
+            O Briens Centra Mullingar
+            Sheelin Meat Mullingar
+            Mace Ballinalack
+            Daybreak Ballinalack
+            Daybreak Collinstown
+            Duffys Supervalu Edgeworthstown
+            Supervalu Longford
+            Herterich Butchers Longford
+            Hanlons Gala Longford
+            Londis Roscommon
+            Kilmartins Centra Athlone
+            Dooleys Athlone
+            Supervalu Banagher
+            Supervalu Birr
+            Leavy’s Centra Tullamore
+            Supervalu Sallins
+            Dublin
+            Supervalu Mount Merrion
+            Supervalu Templeogue
+            Supervalu Palmerstown -->
+
+        </ul>
+    </section>
+
+
+    <div id="contact" class="divAroundForm">
+        <h2>Leave a Message:</h2>
+        <br />
+        <form action="https://formspree.io/f/xdopbebl" method="POST">
+            <h4>Your Name:</h4>
+            <input name="name"></textarea>
+            <br />
+
+            <h4>Your email:</h4>
+            <input type="text" name="_replyto">
+            <br />
+
+            <h4>Your message:</h4>
+            <textarea name="message" rows="6"></textarea>
+            <br />
+            <div type="submit">
+                <p class="send-button">Send</p>
+            </div>
+        </form>
     </div>
 
+    <footer>
+        <div class="socialmediaicons">
+            <a href="https://www.facebook.com/greenesfamilykitchen" >
+                <img class="icon" src="images/facebook.png"/>
+            </a>
+            
+            <a href="https://www.instagram.com/greenesfamilykitchen/" > 
+                <img class="icon" src="images/instagram.png"/>
+            </a>
+        </div>
+   
 
-    
-    <form
-    action="https://formspree.io/f/xdopbebl"
-    method="POST"
-  >
-    <label>Your email:</label>
-      <input type="text" name="_replyto">
+        <img class="logo-footer" src="/images/pixlr-bg-result.png" alt="Greene's Family Kitchen Logo"></img>
 
-    <label>Your message:</label>
-      <textarea name="message"></textarea>
-  
-    <!-- your other form fields go here -->
-  
-    <button type="submit">Send</button>
-  </form>
-
-       <footer>
-           <h2>Contact info@greenesfamilykitchen.ie for more information.</h2>
-       </footer>
-
+        <p class="footer-text">+353 87 2261 812<br /> Greene's Family Kitchen<br /> Rathaspick<br /> Rathowen<br /> Mullingar<br />
+            Westmeath<br /> Ireland<br/> &copy; Greene's Family Kitchen 2021.</p>
+    </footer>
 </body>
-
 
 </html>

@@ -1,136 +1,13 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol,
-ul {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 html {
-  font-family: "Lato", sans-serif;
-  font-size: 62.5%; /* 16px * 62.5 = 10px = 1rem */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px; /* 16px * 62.5 = 10px = 1rem */
+}
+
+body{
+  background-color: #EEDDB1;
 }
 
 h1 {
@@ -138,19 +15,19 @@ h1 {
 }
 
 h2 {
-  font-size: 2em;
-}
-
-h3 {
   font-size: 1.8em;
 }
 
-h4 {
+h3 {
   font-size: 1.5em;
 }
 
-h5 {
+h4 {
   font-size: 1.2em;
+}
+
+h5 {
+  font-size: 1em;
 }
 
 p,
@@ -160,60 +37,301 @@ i {
   font-size: 1em;
 }
 
-nav {
-  background-color: black;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
+a{
+  color: black;
 }
 
-.details {
-  height: auto;
+nav {
+  background-color: #FFFFFF;
+  color: #9CB139;
+}
+
+.navDiv{
+  width: 95%;
+  margin: 0 auto;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: space-evenly;
+}
+
+.navSection{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  width: 100%;
+}
+
+.navSection a{
+  text-decoration: none;
+  padding: 0rem 2rem;
+  color: #9CB139;
+}
+
+.logo{
+  width: 20%;
+}
+
+.text-inside-story{
+  width: 50%;
+  margin: 0 auto;
+  color: white;
+  padding: 4rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading{
+  font-family: 'Dancing Script', cursive;
 }
 
 .center-text{
-    display: flex;
-    justify-content: center;
-    padding: 4rem;
-    background-color: black;
-    color: white;
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  background-color: black;
+  color: white;
+}
+
+.text-layout{
+  text-align: center;
 }
 
 img {
-    display: flex;
-    justify-self: center;
-    align-self: center;
+  display: flex;
 }
 
 .images{
-  max-width: 50%;
+  width: 100%;
+}
+
+.intro-text-section{
+  background-color: #9CB139;
+  padding: 2rem 0rem;
+  display: flex;
+}
+
+.products-section{
+  background-color: white;
+  padding: 4rem 0rem;
+}
+
+.sectionOne img{
+  width: 100%; 
+}
+
+
+.pancakes{
+  display: flex; 
+  max-width: 100%;
+  justify-content: space-evenly;
+}
+
+.pancake-card{
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #9CB139;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.pancake-card img{
+  max-width: 100%;
+  padding: 2rem 2rem;
+}
+
+.pancakes-text{
+  width: 70%;
   margin: 0 auto;
+  padding: 4rem 0rem;
+}
+
+.product-name{
+  margin: 1rem auto 2rem auto;
+}
+
+.color{
+  background-color: black;
+}
+
+.bottom-product-section{
+  padding: 1rem;
+}
+
+.productDiv a{
+  color: white;
+}
+
+.color{
+  padding: 1rem 2rem;
+}
+
+.insideProductDiv{
+  padding: 2rem 2rem;
+  background-color: #9CB139;
 }
 
 .product-heading{
-  background-color: green;
+  background-color: #9CB139;
   color: white;
   padding: 1rem 1rem;
   width: 80%;
   margin: 0 auto;
 }
 
-
 form{
   display: flex;
   flex-direction: column;
-  
+}
+
+.divAroundForm{
+  width: 90%;
+  margin: 4rem auto;
+  padding: 5rem 4rem;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.our-story{
+  width: 90%;
+  margin: 4rem auto;
+  background-color: #9CB139;
+  color: white;
+  padding: 5rem 5rem;
+  border-radius: 6px;
+}
+
+.our-values{
+  background-color: #9CB139;
+  margin: 0 auto;
+  padding: 2rem 0rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Dancing Script', cursive;
+  color: white;
+}
+
+.value-items{
+  padding: 0rem 0rem;
+  margin: 0 auto;
+}
+
+.center-child{
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.send-button{
+  background-color: #9CB139;
+  border: 1px solid black;
+  color: white;
+  padding: 1rem 4rem;
+  margin: 0 auto;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.footer-div{
+  background-color: #333333;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 2rem;
 }
 
 footer{
-  background-color: black;
-  color: white;
+  background-color: #333333;
+  margin: 0 auto;
   display: flex;
-  justify-content: center;
-  padding: 1rem 1rem;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.logo-footer{
+  width: 20%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.footer-text{
+  margin: 2rem auto;
+  color: white;
+  text-align: center;
+}
+
+.socialmediaicons{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 0rem;
+  background-color: #9CB139;
+}
+
+.icon{
+  width: 50%;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .productDiv{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo{
+    width: 40%;
+  }
+
+  .text-inside-story{
+    width: 80%;
+  }
+
+  .productDiv img{
+    width: 100%;
+  }
+
+  .navSection{
+    display: none;
+  }
+
+  .navSection a{
+    display: none;
+  }
+
+  .pancakes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pancake-card{
+    max-width: 80%;
+    margin: 2rem auto;
+  }
+
+  .our-values{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .value-items{
+    margin: 2rem auto;
+  }
+
+  .socialmediaicons{
+    display: flex;
+    justify-content: center;
+    padding: .5rem .5rem;
+    background-color: #9CB139;
+  }
+
+  .logo-footer{
+    width: 50%;
+  }
+
 }
