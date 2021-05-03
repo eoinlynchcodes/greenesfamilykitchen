@@ -334,4 +334,12 @@ footer{
     width: 50%;
   }
 
+  .divAroundForm{
+    width: 90%;
+    margin: 4rem auto;
+    padding: 3rem 2rem;
+    background-color: white;
+    border-radius: 6px;
+  }
+
 }
