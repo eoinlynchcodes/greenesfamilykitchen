@@ -238,7 +238,7 @@ form{
 }
 
 .footer-div{
-  background-color: #333333;
+  background-color: white;
   color: white;
   display: flex;
   justify-content: space-evenly;
@@ -246,7 +246,7 @@ form{
 }
 
 footer{
-  background-color: #333333;
+  background-color: white;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -261,19 +261,56 @@ footer{
 
 .footer-text{
   margin: 2rem auto;
-  color: white;
   /* text-align: center; */
+}
+
+.flex{
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .socialmediaicons{
   display: flex;
-  justify-content: center;
+  width: 33%;
+  flex-direction: column;
   padding: .5rem .5rem;
-  background-color: #9CB139;
+  background-color: white;
+}
+
+.mainFooterDiv{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+
+.copy{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.darkFontColour{
+  color: #333333;
+}
+
+.footer-text{
+  width: 33%;
+}
+
+.imageDiv{
+  width: 33%;
 }
 
 .icon{
-  width: 10%;
+  width: 15%;
+  margin: 1rem 1rem;
+}
+
+.footerDiv{
+
 }
 
 
@@ -331,7 +368,7 @@ footer{
   }
 
   .logo-footer{
-    width: 50%;
+    width: 100%;
   }
 
   .divAroundForm{
