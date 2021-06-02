@@ -42,8 +42,8 @@ a{
 }
 
 nav {
-  background-color: #FFFFFF;
-  color: #9CB139;
+  background-color: #9CB139;
+  color: #FFFFFF;
 }
 
 .navDiv{
@@ -52,6 +52,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  color: #FFFFFF;
 }
 
 .navSection{
@@ -64,7 +65,7 @@ nav {
 .navSection a{
   text-decoration: none;
   padding: 0rem 2rem;
-  color: #9CB139;
+  color: #FFFFFF;
 }
 
 .logo{
@@ -149,6 +150,10 @@ img {
   width: 70%;
   margin: 0 auto;
   padding: 4rem 0rem;
+}
+
+.textaligncenter{
+  text-align: center;
 }
 
 .product-name{
